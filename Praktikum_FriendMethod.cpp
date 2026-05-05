@@ -67,3 +67,19 @@ public:
 float BelahKetupat::kelilingLayang(LayangLayang &l) {
     return 2 * (l.s1 + l.s2);
 }
+
+int main() {
+    LayangLayang objLayang;
+    BelahKetupat objBelah;
+
+    objLayang.input();
+    objBelah.input();
+
+    objLayang.output();
+    objBelah.output();
+
+    cout << "--- Hasil Friend Method (Keliling Layang dari Belah Ketupat) ---" << endl;
+    cout << "Hasil: " << objBelah.kelilingLayang(objLayang) << endl;
+
+    return 0;
+}
