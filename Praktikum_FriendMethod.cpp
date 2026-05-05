@@ -32,3 +32,9 @@ public:
         cout << "Keliling: " << keliling() << endl;
     }
 };
+
+class LayangLayang {
+private:
+    float d1, d2, s1, s2;
+
+};
