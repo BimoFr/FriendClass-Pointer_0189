@@ -62,3 +62,8 @@ public:
 
     friend float BelahKetupat::kelilingLayang(LayangLayang &l);
 };
+
+// Implementasi friend method setelah class LayangLayang didefinisikan
+float BelahKetupat::kelilingLayang(LayangLayang &l) {
+    return 2 * (l.s1 + l.s2);
+}
